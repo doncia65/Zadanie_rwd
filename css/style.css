@@ -1,0 +1,59 @@
+* {
+    font-family: 'Verdana';
+}
+
+
+@media (min-width:1170px) {
+    
+    header {
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        height: 100vh;
+        
+    }
+    
+    #header div {
+        position: absolute;
+        text-align: left;
+        top: 50%;
+        margin: 0;
+        width: 100%;
+        color: #fff;
+        text-transform: uppercase;
+        transform: translateY(-50%);
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1170px) {
+    
+    header {
+        background-image: url(../img/man-2.jpg);
+        height: 70vh;
+        background-size: cover;
+    }
+    #header div {
+        position: absolute;
+        top: 0;
+        right: 7px;
+        color: #fff;
+    }
+}
+
+
+@media (max-width:992px) {
+    
+    header {
+        background-image: url(../img/man-1.jpg);
+        background-size: cover;
+        height: 50vh;
+    }
+    
+    #header div {
+        text-align: center;
+        position: absolute;
+        top: 53%;
+        width: 100%;
+        color: #000;
+    }
+}
